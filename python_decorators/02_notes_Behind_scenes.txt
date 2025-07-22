@@ -1,0 +1,53 @@
+# ❌ problem statement —
+
+# "It's boring to call answer() every time"
+
+
+# ✅ Solution - 
+
+# Used a decorator to automatically print "Answer is:" before function output, making code cleaner and DRY.
+
+
+🛠️ Behind the Scenes (Without @)
+
+def decorator_function(original_function):
+    def wrapper_function(*args, **kwargs):
+        print("Answer is:")
+        return original_function(*args, **kwargs)
+    return wrapper_function
+
+# Decorator applied manually instead of using @
+def add(a, b):
+    print(a + b)
+
+add = decorator_function(add)  # ⬅️ This line is what @decorator_function does
+
+def multiply(a, b):
+    print(a * b)
+
+multiply = decorator_function(multiply)  # ⬅️ Same here
+
+# Now calling the decorated versions
+add(5, 7)
+multiply(5, 7)
+
+
+-------------------------------------------------------------------------------------------------
+
+So effectively:
+
+
+@decorator_function
+def add(a, b):
+    print(a + b)
+
+
+
+...is equal to...
+
+def add(a, b):
+    print(a + b)
+
+add = decorator_function(add)
+
+-------------------------------------------------------------------------------------------------
