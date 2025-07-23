@@ -1,0 +1,18 @@
+Class & Object:
+A class is a blueprint for creating objects. An object is an instance of a class containing data and methods.
+
+
+
+4 key properties of Object-Oriented Programming (OOPs) -
+
+1. Encapsulation:
+   Wrapping data and methods into a single unit (class) and restricting direct access using private/protected members.
+
+2. Inheritance:
+   Allows one class to inherit properties and methods from another, promoting code reuse.
+
+3. Polymorphism:
+   The ability to use the same method name in different ways (e.g., method overriding in child classes).
+
+4. Abstraction:
+   Hides complex internal details and shows only essential features to the user using abstract classes or methods.
