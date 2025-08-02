@@ -1,0 +1,38 @@
+numbers = [1, 2, 3]
+
+#Append
+
+numbers.append(10) #add 10 in list at last index
+
+print(numbers)
+
+#Insert
+
+numbers.insert(1, 48) #insert 48 at index 1
+
+print(numbers)
+
+#Extend (merge lists)
+
+a = [1, 2]
+b = [3, 4]
+
+a.extend(b)                #a becomes - [1, 2, 3, 4]
+
+print(a)
+
+#Remove
+
+a.remove(2)             # remove first occurance of 2
+print(a)
+
+#Pop
+
+last = a.pop()                  ## Removes last element and returns it
+
+print(last)
+
+#Clear
+
+a.clear()                   # clear all the item form list
+print(a)
