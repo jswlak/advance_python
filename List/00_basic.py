@@ -1,6 +1,6 @@
 # A list is a collection that is ordered, changeable, and allows duplicate values.
 
-fruit = ["Apple", "Banana", "Papaya", "Mango", "Litchi", "Blueberry", "Grava", "Pineapple"]
+fruit = ["Apple", "Banana", "Papaya", "Mango", "Litchi", "Blueberry", "Guava", "Pineapple"]
 
 print(fruit)
 
