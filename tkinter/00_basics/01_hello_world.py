@@ -4,7 +4,7 @@ import tkinter as tk
 
 root = tk.Tk() #----> creates the main windows
 
-root.title("Welcome") #---> set the windows title
+root.title("Hello Tkinter") #---> set the windows title
 
 
 root.geometry("500x500") # -->define the windows size
