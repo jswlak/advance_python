@@ -123,3 +123,22 @@ tk.Button(root, text="Clear", command=clear_fields).grid(row=3, column=3, pady=1
 fetch_customers()
 
 root.mainloop()
+
+
+
+
+
+
+'''
+🔑 What this does:
+✅ Adds new customers (Name, Email, Phone)
+
+✅ Displays all customers in a table (Treeview)
+
+✅ Updates selected customer info
+
+✅ Deletes selected customer
+
+✅ Validates input and handles duplicate emails
+
+'''
