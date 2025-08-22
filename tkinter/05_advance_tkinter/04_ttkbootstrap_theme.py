@@ -23,3 +23,16 @@ class ThemedApp(tb.Window):
 if __name__ == "__main__":
     app = ThemedApp()
     app.mainloop()
+
+
+
+
+'''
+👉 You’ll get:
+
+Modern styled widgets.
+
+Multiple built-in themes.
+
+Bootstrapped colors like SUCCESS, DANGER, INFO
+'''
