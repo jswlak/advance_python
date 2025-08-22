@@ -29,3 +29,18 @@ class MyApp(tk.Tk):
 if __name__ == "__main__":
     app = MyApp()
     app.mainloop()
+
+
+
+
+
+
+'''
+Why OOP?
+
+    Keeps code organized.
+
+    Easier to extend GUI with more windows & features.
+
+    Standard approach for real projects.
+'''
