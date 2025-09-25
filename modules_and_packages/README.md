@@ -3,3 +3,9 @@ A module is just a Python file containing code — functions, classes, variables
 
 ## What are Packages?
 A package is a folder containing Python modules, plus a special __init__.py file (can be empty) that tells Python “this is a package”
+
+Folder structure:
+my_package/
+    __init__.py
+    math_utils.py
+    string_utils.py
