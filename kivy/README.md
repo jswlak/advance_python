@@ -1,4 +1,4 @@
-## What is Kivy?
+# What is Kivy?
 
     Kivy is a Python framework for building cross-platform GUI apps.
 
@@ -6,5 +6,33 @@
 
     It uses OpenGL for graphics, so it’s good for modern UIs and touch-based apps.
 
-## Install Kivy:
+# Install Kivy:
     pip install "kivy[base]" kivy_examples
+
+---
+
+# Kivy Foundations — Widgets & Layouts
+
+Think of it like **Lego**:  
+
+- **Widgets** = individual blocks (e.g., `Button`, `Label`, `TextInput`, etc.)  
+- **Layouts** = containers that arrange widgets together  
+
+---
+
+## Core Widgets
+
+Here are the most important widgets you’ll use all the time:
+
+| **Widget**    | **Purpose**                      |
+|---------------|----------------------------------|
+| `Label`       | Display text                     |
+| `Button`      | Clickable button                 |
+| `TextInput`   | Input text from user             |
+| `CheckBox`    | True/False selection             |
+| `Switch`      | On/Off toggle                    |
+| `Slider`      | Choose a value from a range      |
+| `Image`       | Display an image                 |
+| `ProgressBar` | Show progress of a task          |
+
+---
