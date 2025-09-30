@@ -36,3 +36,7 @@ Here are the most important widgets you’ll use all the time:
 | `ProgressBar` | Show progress of a task          |
 
 ---
+
+Example 00 - Label + Button + TextInput
+visit - 00_hello_input.py
+
