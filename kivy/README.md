@@ -40,3 +40,18 @@ Here are the most important widgets you’ll use all the time:
 Example 00 - Label + Button + TextInput
 visit - 00_hello_input.py
 
+# Layout Managers
+
+**Layouts** control how widgets are arranged inside your app.  
+Think of them as **containers** that decide *where* each widget goes.  
+
+---
+
+## Common Layout Managers
+
+### 1. BoxLayout → Linear (Horizontal / Vertical)
+Arranges widgets in a straight line.
+
+```python
+BoxLayout(orientation="horizontal")  # side by side
+BoxLayout(orientation="vertical")    # top to bottom
