@@ -55,3 +55,6 @@ Arranges widgets in a straight line.
 ```python
 BoxLayout(orientation="horizontal")  # side by side
 BoxLayout(orientation="vertical")    # top to bottom
+'''
+
+
