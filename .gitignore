@@ -8,3 +8,4 @@ app.db
 
 .venv
 students.json
+*.json
